@@ -1,0 +1,23 @@
+# Data: never uploaded (VRMoL study team data)
+data/
+*.sav
+*.csv
+
+# Comment review files (contain participant comments)
+output/01b_comments*
+
+# R session files
+.Rhistory
+.RData
+
+# RStudio's per-user settings folder (can contain local paths)
+.Rproj.user/
+
+# Everything else in output/ (step results, plots, codebook, study sheet)
+output/
+
+# Working files with supervisor questions, names and decision notes
+CLAUDE.md
+ANALYSIS_LOG.md
+ACTION_LIST.md
+.claude/
